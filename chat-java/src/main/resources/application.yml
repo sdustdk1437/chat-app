@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&serverTimezone=GMT
+    username: root
+    password: root
+  jpa:
+    database: MYSQL
+    show-sql: true
+  #hibernate ddl auto (validate|create|create-frop|update)
+    #hibernate:
+      #ddl-auto: update
+      #naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    #properties:
+      #hibernate:
+        #dialect: org.hibernate.dialect.MySQL5Dialect
+  profiles:
+    active: enable-cors
