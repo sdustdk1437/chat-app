@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cerberus-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heimdall-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/splc-developer-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-aggregator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-apidocs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-sdk-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-sdk-spa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-service-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-service-inner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-service-outer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-service-outer - 副本" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vibeauth-service-proxy" vcs="Git" />
+  </component>
+</project>

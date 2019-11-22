@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.enums.MinioEnum;
 import com.example.demo.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,6 @@ public class FileController {
 
     @RequestMapping("/upload")
     public Map uploadFile(@RequestParam MultipartFile file) {
-        return fileService.uploadFile(file);
+        return fileService.uploadFileByStream(file, "image1");
     }
 }

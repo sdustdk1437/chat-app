@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30b0e666-5512-4b66-bc9c-17aed4de2431" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/UserControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/Clerk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/ConsumerInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/MysqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/ProducerInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/TestSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/Women.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/MDentity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/MDrepository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/NewdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/TestDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/test/java/com/example/demo/MongoDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newdemo/src/test/java/com/example/demo/MysqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/GoldSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/MyFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/MyWebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/ShanghaiStockSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/ShenzhenStockSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/SinaSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/SinaSportSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/Spider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spiderdemo/src/main/java/com/example/spiderdemo/util/XinhuaSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/splc-developer-platform/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/splc-developer-platform/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_4_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testDruid/src/main/java/com/example/demo/DruidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testDruid/src/main/java/com/example/demo/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testDruid/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/client/PhotoLiveVerifyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/client/PhotoLiveVerifyClientBaidu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/client/PhotoLiveVerifyClientMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/FaceV3Req.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/FaceV3Resp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/H5LiveVerifyReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/H5LiveVerifyResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/PhotoLivenessReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/dto/VoiceCheckCodeResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/test/java/cn/telchina/vibeauth/client/PhotoLiveVerifyClientBaiduTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/test/java/cn/telchina/vibeauth/service/VerifyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider/src/main/java/XinHuaSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/spider/src/main/java/XinHuaSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/logs/platform.log" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/logs/platform.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/java/cn/telchina/platform/web/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/java/cn/telchina/platform/web/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/appinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/appinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/companyinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/companyinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/my.applications.js" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/static/custom/pages/my.applications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/templates/pages/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/splc-developer-platform/src/main/resources/templates/pages/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_json_json_20140107.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_1_1_0_M5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_1_1_0_M5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_1_1_0_M4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_unknown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_1_1_0_M5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_1_1_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_4_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_springframework_security_spring_security_acl_4_0_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/mysql/mysql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/mysql/mysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/mysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/spring-boot-security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security/web/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-apidocs/vibeauth-apidocs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-apidocs/vibeauth-apidocs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer - 副本/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/controller/VerifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/controller/VerifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/service/VerifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/java/cn/telchina/vibeauth/service/VerifyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer - 副本/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vibeauth-service-outer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vibeauth-service-outer/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b0e666-5512-4b66-bc9c-17aed4de2431" name="Default Changelist" comment="" />
+      <created>1555637075237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555637075237</updated>
+      <workItem from="1555637080532" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="68" y="20" width="1400" height="784" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>
